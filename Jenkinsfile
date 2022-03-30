@@ -22,7 +22,7 @@ pipeline {
                 echo "Check out source code"
                 git branch: "master",
                         credentialsId: 'MsSRIkanthDec',
-                        url: 'https://github.com/MsSRIkanthDec/Kubernetes-Jenkins.git'
+                        url: 'https://github.com/MsSRIkanthDec/Jenkins-Java.git'
              }
         stage('BUILD'){
             steps {
